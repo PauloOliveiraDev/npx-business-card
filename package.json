@@ -12,11 +12,14 @@
   },
   "scripts": {
     "test": "node card.js",
-    "pub": "npm version major & npm publish"
+    "pub": "npm version major & npm publish",
+    "dev": "nodemon card.js",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
+    "chalk-pipe": "^6.2.0",
     "clear": "^0.1.0",
     "cli-spinners": "^2.5.0",
     "inquirer": "^7.3.2",
@@ -33,5 +36,10 @@
     "business card"
   ],
   "author": "Paulo H. Oliveira",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0"
+  }
 }

@@ -1,0 +1,13 @@
+diff --git a/node_modules/inquirer/lib/prompts/list.js b/node_modules/inquirer/lib/prompts/list.js
+index aefb13d..4e316e8 100644
+--- a/node_modules/inquirer/lib/prompts/list.js
++++ b/node_modules/inquirer/lib/prompts/list.js
+@@ -88,7 +88,7 @@ class ListPrompt extends Base {
+     var message = this.getQuestion();
+ 
+     if (this.firstRender) {
+-      message += chalk.dim('(Use arrow keys)');
++      message += chalk.dim('(use as setas ↓↑)');
+     }
+ 
+     // Render choices or answer depending on the state
