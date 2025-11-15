@@ -78,7 +78,7 @@ const data = {
     github: chalk.gray("https://github.com/PauloOliveiraDev"),
     linkedin: chalk.gray("https://www.linkedin.com/in/paulohgo"),
     web: chalk.gray("https://paulodev.vercel.app"),
-    npx: chalk.red("npx") + " " + chalk.white("paulo"),
+    npx: chalk.red("npx") + " " + chalk.white("paulodev"),
 
     // labelWork: chalk.white.bold("       Work:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
