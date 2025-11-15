@@ -1,6 +1,6 @@
 {
   "name": "paulodev",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Um cartão pessoal para Paulo H. Oliveira (@PauloOliveiraDev)",
   "main": "card.js",
   "bin": {
