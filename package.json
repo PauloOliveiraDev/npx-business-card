@@ -1,6 +1,6 @@
 {
   "name": "paulodev",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Um cartão pessoal para Paulo H. Oliveira (@PauloOliveiraDev)",
   "main": "card.js",
   "bin": {
@@ -13,8 +13,7 @@
   "scripts": {
     "test": "node card.js",
     "pub": "npm version major & npm publish",
-    "dev": "nodemon card.js",
-    "postinstall": "patch-package"
+    "dev": "nodemon card.js"
   },
   "dependencies": {
     "boxen": "^4.2.0",
@@ -22,7 +21,7 @@
     "chalk-pipe": "^6.2.0",
     "clear": "^0.1.0",
     "cli-spinners": "^2.5.0",
-    "inquirer": "^7.3.2",
+    "inquirer": "^12.11.1",
     "open": "^7.0.4",
     "ora": "^5.1.0",
     "request": "^2.88.2"
